@@ -1,0 +1,8 @@
+body{
+  margin: 0;
+}
+:root{
+  --main: #b28a75; 
+  --tema: #fbf4f4;
+  --plus-fonte: rgb(12, 51, 35);
+}

@@ -1,0 +1,287 @@
+.principal{
+    height: 100%;
+}
+
+.bannerPrincipal{
+    background: url("../../../imgs/PAGINAINICIAL.png");
+    background-color: var(--main);
+    height: 862px;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-position: center bottom;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-attachment: fixed;
+    border-bottom:  solid 15px var(--main);
+}
+
+.bannerApresentacao{
+    height: 80%;
+    width: 600px;
+    background-color: rgb(184, 243, 184);
+    display: flex;
+    float: left;
+    background: transparent; 
+    flex-direction: column;
+    left: 50%;
+    position: relative;
+    margin-top: 150px;
+    align-items: center;
+    
+    
+}
+
+.logoBanner{
+    width: 411px;
+    height: 274px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+.botaFaleConosco{
+    width: 350px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.videos{
+    height: 485px;
+    width: 100%;
+    background-color: var(--tema);
+    display: flex;
+}
+
+.plus{
+    background: var(--tema);
+    width: 100%;
+    height: 100%;
+}
+
+.logoPlus{
+    width: 100%;
+    background-color: var(--tema);
+    height: 235px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+
+}
+.logoPlus1{
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: fantasy;
+    color: var(--plus-fonte);
+    margin-top: 50x;
+
+}
+.logoPlus2{
+    font-size: 90px;
+    font-family: fantasy;
+    color: var(--plus-fonte);
+}
+
+.produto{
+    margin: solid rgb(110, 61, 61) 1px;
+
+}
+
+.itemBox{
+    
+}
+.conteudoPlus{
+    padding: 0px 50px;
+    display: flex;
+    position:static;
+    float:inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    
+
+}
+.carrossel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.separador{
+    height: 238px;
+    background-color: antiquewhite;
+}
+
+.manualDaMarca{
+    height: 692px;
+    background-color: rgba(59, 78, 78, 0.288);
+    background: url("../../../imgs/a.png");
+    background-position: center ;
+
+
+
+}
+
+.manualText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    margin-right:10%;
+    margin-top: 200px;
+    width: 1000px;
+    color: var(--plus-fonte);
+
+}
+
+.manualTextP{
+    font-size: 50px;
+}
+.titleManual{
+    font-size: 80px;
+    font-weight: bold;
+}
+.pagamento{
+    
+    background-color: var(--tema);
+    padding-right: 0%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.caixaPagamento{
+    width: 1200px;
+    background-color: var(--tema);
+    height: 1300px; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.titlePagamento{
+    position: relative;
+    font-size: 90px;
+    align-items: center;
+    color: var(--plus-fonte);
+    line-height: 70px;
+    
+}
+
+.valorPagamento{
+    font-size: 60px;
+    align-items: center;
+    color: var(--plus-fonte);
+    margin: 30px auto;
+    text-decoration: line-through;
+}
+.por{
+    font-size: 60px;
+    align-items: center;
+    color: var(--plus-fonte);
+    margin: 30px auto;
+}
+
+.valorLong{
+    font-size: 120px;
+    font-weight: bold;
+    margin: auto;
+}
+.valorShort{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.desconto{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.textoBanner{
+    font-size: 25px;
+    color: var(--plus-fonte);
+}
+
+
+
+#botaoPlus{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.antiPlagio{
+    height: 500px;
+    background-color: var(--tema);
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.textoAntiPlagio{
+    font-size: 70px;
+    color: var(--plus-fonte);
+}
+.segmentos{
+    height: 100%;
+    width: 100%;
+    background-color: var(--tema)
+}
+.container1{
+    width: 150px;
+    height: 150px;
+}
+
+.segmentosContainer{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: var(--tema);
+    margin-bottom: 100px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+.segmentosTitle{
+    font-size: 70px;
+    margin: 50px auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: var(--plus-fonte);
+    display: flex;
+}
+
+.areaSegmentos{
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}

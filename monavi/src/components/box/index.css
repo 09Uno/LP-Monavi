@@ -1,0 +1,45 @@
+.conteiner{
+    
+    width: 100% + 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.indexBox{
+    height: 300px;
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border: solid var(--main) 8px;
+    
+    
+}
+
+.Box2{
+
+    padding: 0px;
+    display: flex;
+    position: relative;
+    word-wrap: break-word;
+
+
+}
+
+span{
+    font-size: 40px;
+    color: var(--plus-fonte);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 30px;
+    color: var(--plus-fonte);
+    white-space: normal;
+    width: 500px;
+}
+
